@@ -67,9 +67,9 @@
     </header>
 
     <main>
-      <!--Секція 1. HERO. Банер-->
+      <!--Секція 1. HERO. -->
 
-      <div>
+      <div class="overlay">
         <section class="hero">
           <h1 class="hero-title">
             ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />
@@ -85,26 +85,38 @@
           <h2 style="display: none">Преимущества</h2>
           <ul class="benefits-icon-list list">
             <li class="item">
-              <svg class="benefits-icon">
-                <use href="./images/maine/strite.svg#icon-hat-smartphone"></use>
-              </svg>
+              <div class="benefits-div-icon">
+                <svg class="benefits-icon">
+                  <use
+                    href="./images/maine/strite.svg#icon-benef-antenna"
+                  ></use>
+                </svg>
+              </div>
             </li>
             <li class="item">
-              <svg class="benefits-icon">
-                <use href="./images/maine/strite.svg#icon-benef-clock"></use>
-              </svg>
+              <div class="benefits-div-icon">
+                <svg class="benefits-icon">
+                  <use href="./images/maine/strite.svg#icon-benef-clock"></use>
+                </svg>
+              </div>
             </li>
             <li class="item">
-              <svg class="benefits-icon">
-                <use href="./images/maine/strite.svg#icon-benef-diagram"></use>
-              </svg>
+              <div class="benefits-div-icon">
+                <svg class="benefits-icon">
+                  <use
+                    href="./images/maine/strite.svg#icon-benef-diagram"
+                  ></use>
+                </svg>
+              </div>
             </li>
             <li class="item">
-              <svg class="benefits-icon">
-                <use
-                  href="./images/maine/strite.svg#icon-benef-astronaut"
-                ></use>
-              </svg>
+              <div class="benefits-div-icon">
+                <svg class="benefits-icon">
+                  <use
+                    href="./images/maine/strite.svg#icon-benef-astronaut"
+                  ></use>
+                </svg>
+              </div>
             </li>
           </ul>
 
@@ -441,59 +453,66 @@
 
     <footer>
       <div class="container basement">
-        <a class="logo" href="/" target="_blank"
-          ><span class="logo web">Web</span
-          ><span class="logo footer-studio">Studio</span></a
-        >
-        <address class="footer-address">
-          <a
-            class="link"
-            href="https://goo.gl/maps/jxMF4LjYh5U93TxF9"
-            target="_blank"
-            >г. Киев, пр-т Леси Украинки, 26</a
+        <div class="footer-logo-address">
+          <a class="logo" href="/" target="_blank"
+            ><span class="logo web">Web</span
+            ><span class="logo footer-studio">Studio</span></a
           >
-        </address>
-        <ul class="list">
-          <li>
-            <a class="link mail" href="mailto:info@example.com"
-              >info@example.com</a
+          <address class="footer-address">
+            <a
+              class="link"
+              href="https://goo.gl/maps/jxMF4LjYh5U93TxF9"
+              target="_blank"
+              >г. Киев, пр-т Леси Украинки, 26</a
             >
-          </li>
-          <li>
-            <a class="link tel" href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
-        <b>присоединяйтесь </b>
-        <ul class="socnetworks list">
-          <li>
-            <a href="" class="soclink">
-              <svg class="soclink-icon" width="20" height="20">
-                <use href="./images/maine/sprite.svg#icon-soc-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="" class="soclink">
-              <svg class="soclink-icon" width="20" height="20">
-                <use href="./images/maine/sprite.svg#icon-soc-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="" class="soclink">
-              <svg class="soclink-icon" width="20" height="20">
-                <use href="./images/maine/sprite.svg#icon-soc-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="" class="soclink">
-              <svg class="soclink-icon" width="20" height="20">
-                <use href="./images/maine/sprite.svg#icon-soc-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+          </address>
+          <ul class="list">
+            <li>
+              <a class="link mail" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="link tel" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-join-us">
+          <b>присоединяйтесь </b>
+          <ul class="socnetworks list">
+            <li>
+              <a href="" class="soclink">
+                <svg class="soclink-icon" width="20" height="20">
+                  <use
+                    href="./images/maine/sprite.svg#icon-soc-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="soclink">
+                <svg class="soclink-icon" width="20" height="20">
+                  <use href="./images/maine/sprite.svg#icon-soc-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="soclink">
+                <svg class="soclink-icon" width="20" height="20">
+                  <use href="./images/maine/sprite.svg#icon-soc-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="soclink">
+                <svg class="soclink-icon" width="20" height="20">
+                  <use href="./images/maine/sprite.svg#icon-soc-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
